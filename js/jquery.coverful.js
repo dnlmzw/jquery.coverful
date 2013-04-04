@@ -9,8 +9,8 @@
 
 ;(function( $, window, document, undefined ) {
 
-    var pluginName = "coverful"
-    var defaults = {
+    var pluginName = "coverful",
+        defaults = {
 		crop: true, // Maybe in the future
 		orientation: 'center center' // Maybe in the future
 	};
