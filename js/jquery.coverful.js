@@ -76,7 +76,7 @@
             };
 
             // Define ratio and set size
-            var size = ratio.image > ratio.wrapper ? {height: '100%', width: 'auto'} : {width: '100%', height: 'auto'};
+            var size = ratio.image > ratio.wrapper ? {height: el.parent().height(), width: 'auto'} : {width: el.parent().width(), height: 'auto'};
             el.css(size);
 
             // Small delay to register size change
